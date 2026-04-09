@@ -1,0 +1,27 @@
+# AI / audio processing
+demucs>=4.0.0
+openai-whisper
+torch>=2.0.0
+torchaudio>=2.0.0
+uroman
+pyannote.audio
+diffq
+audio-separator
+google-genai
+
+# Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# HTTP client
+httpx>=0.27.0
+
+# YouTube download
+yt-dlp
+
+# Supabase
+supabase>=2.9.0
+
+# YouTube Music metadata/search
+ytmusicapi>=1.11.1

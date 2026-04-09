@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv
+venv
+env
+
+# Dev / IDE
+.git/
+.gitignore
+.env
+.env.*
+.vscode/
+.idea/
+
+# Tests / CI
+tests.py
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Temp audio files
+/tmp/
