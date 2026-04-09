@@ -5,7 +5,7 @@ AI karaoke generation pipeline for melody.io. Separates audio, generates/aligns 
 
 ## Installation
 
-### Docker (recommended)
+### - Docker (recommended)
 
 The easiest way to run melody.ai. No need to install Python, ffmpeg, or any other dependency.
 
@@ -53,7 +53,7 @@ docker compose logs -f        # follow logs in real time
 
 ---
 
-### Manual installation
+### - Manual installation
 
 **Prerequisites:** Python 3.12, [uv](https://docs.astral.sh/uv/getting-started/installation/), ffmpeg, audiowaveform
 
