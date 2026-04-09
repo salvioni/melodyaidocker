@@ -97,20 +97,6 @@ curl http://localhost:8001/health
 # {"status":"ok","models_loaded":true}
 ```
 
-### Environment variables
-
-| Variable                    | Default       | Description                               |
-| --------------------------- | ------------- | ----------------------------------------- |
-| `SUPABASE_URL`              | *(bundled)*   | Supabase project URL                      |
-| `SUPABASE_SERVICE_ROLE_KEY` | *(bundled)*   | Supabase service role key                 |
-| `TEMP_DIR`                  | `/tmp/melody` | Local directory for temporary audio files |
-| `MELODY_DEVICE`             | `auto`        | Force `cuda`, `mps`, or `cpu`             |
-| `MELODY_SEPARATION_BACKEND` | `auto`        | Force `demucs` or `uvr`                   |
-
-Override any variable before starting the server:
-```bash
-TEMP_DIR=/data/tmp python -m uvicorn melody.server:app --port 8001 --workers 1
-```
 
 ## API
 
