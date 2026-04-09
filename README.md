@@ -26,9 +26,9 @@ curl http://localhost:8001/health
 # {"status":"ok","models_loaded":true}
 ```
 
-Or open `http://localhost:8001/docs` in your browser for the interactive API docs.
 
-#### GPU support (NVIDIA only)
+
+#### Optional GPU support (NVIDIA only)
 
 1. Install [nvidia-container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 2. Uncomment the `deploy` block in `docker-compose.yml`:
